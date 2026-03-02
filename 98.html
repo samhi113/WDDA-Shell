@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draggable Screens</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <link rel="stylesheet" href="css/98styles.css" />
+  </head>
+  <body>
+    <nav>
+      <button id="start" class="default"><img src="Asset 2.svg" />Start</button>
+    </nav>
+    <div class="window" id="window1">
+      <div class="title-bar">
+        <div class="title-bar-text">Netscape - WDDA Website</div>
+        <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <input type="url" name="winXPURL" id="url1" value="http://127.0.0.1:8080/" />
+      <iframe class="windowCont" src="http://127.0.0.1:8080/"></iframe>
+      <div class="resizeMarker"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

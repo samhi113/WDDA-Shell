@@ -1,4 +1,4 @@
-const dragElements = document.querySelectorAll(".title-bar"); 
+const dragElements = document.querySelectorAll(".topBar"); 
 
 const resizeElements = document.querySelectorAll(".resizeMarker");
 
